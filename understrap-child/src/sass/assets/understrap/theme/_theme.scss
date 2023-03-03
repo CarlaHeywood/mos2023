@@ -1,0 +1,353 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+$yellow: #f0aa00; // Thats a sample how you could change a BootStrap variable.
+$primary: $yellow;
+
+/********************************************
+       == Topbar Start ==
+********************************************/
+
+.topbar-wrap {
+    background: #bb3638;
+}
+
+.topbar-wrap .address {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topbar-wrap .address i {
+    margin-right: 6px;
+}
+
+.followus {
+    display: flex;
+}
+
+.top_right,
+.soclia_media {
+    margin: auto;
+}
+
+.soclia_media li {
+    padding: 0 5px;
+}
+
+.soclia_media li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.top_right li {
+    display: inline-block;
+}
+
+.followus span {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topbar-wrap .phone a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background: #f0aa00;
+    padding: 12px 22px;
+    display: inline-block;
+}
+
+.topbar-wrap .phone i {
+    margin-right: 10px;
+}
+
+.topbar-wrap .phone {
+    margin-left: 12px;
+}
+
+.top_right {
+    margin: auto;
+}
+
+
+/********************************************
+	   == Header Css Start ==
+********************************************/
+
+.header-wrap {
+    padding: 10px 0;
+    background-color: black;
+}
+
+.header-wrap .conInfo {
+    padding-left: 52px;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-wrap .conInfo span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    letter-spacing: 2px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.header-wrap .conInfo a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.header-wrap .conInfo a:hover {
+    color: #bb3638;
+}
+
+.header-wrap .addressWrp:before {
+    content: "";
+    background: url('https://www.kiddesworld.net/demo/envato/kiddies-world/publish/html/images/map_icon.png') no-repeat;
+    width: 46px;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.header-wrap .phonewrp:before {
+    content: "";
+    background: url(../images/phone_icon.png) no-repeat;
+    width: 46px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-wrap .phonewrp a {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.header-wrap .phonewrp {
+    padding-left: 56px;
+}
+
+
+/*********************************************
+        Navigation css
+*********************************************/
+
+.navbar-brand {
+    display: none;
+}
+
+.navigation-wrap {
+    z-index: 1000;
+    float: right;
+    position: relative;
+}
+
+.navbar-nav li {
+    padding: 10px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    padding: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.navbar_phone {
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.sticky {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 10000;
+    background: #bb3638;
+    height: 65px;
+    margin-top: 0;
+    -webkit-box-shadow: 0px 5px 7px rgba(3, 3, 3, 0.11);
+    -moz-box-shadow: 0px 5px 7px rgba(3, 3, 3, 0.11);
+    box-shadow: 0px 5px 7px rgba(3, 3, 3, 0.11);
+}
+
+.custom-navbar .navbar-nav li.active>a {
+    background-color: #1d2435;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #bb3638;
+}
+
+.navbar-nav li {
+    position: relative;
+}
+
+.navbar-nav>li>ul {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 200%;
+    width: 200px;
+    padding: 0px;
+    z-index: 100;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 0px 2px 2px 2px;
+    -ms-border-radius: 0px 2px 2px 2px;
+    -webkit-border-radius: 0px 2px 2px 2px;
+    -moz-border-radius: 0px 2px 2px 2px;
+    -o-border-radius: 0px 2px 2px 2px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.38);
+}
+
+.submenu li:last-child {
+    border: none;
+}
+
+.navbar-nav>li:hover>ul {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-nav>li>ul>li {
+    position: relative;
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+    padding: 0;
+}
+
+.submenu>li:hover>a {
+    background: #bb3638;
+    color: #fff !important;
+}
+
+.navbar-nav>li>ul>li>a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 5px 20px;
+    font-weight: normal;
+    font-size: 14px;
+    color: white !important;
+    background-color: #000;
+    word-wrap: break-word;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.navbar-nav li>.submenu>li a+i {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #0b3c5d;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.navbar-nav>li>a+i {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.submenu li .submenu_right {
+    display: none;
+}
+
+.submenu_right {
+    background: #328bc3;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+}
+
+.submenu_right li {
+    padding-bottom: 0;
+    padding: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.submenu_right li a {
+    display: block;
+    padding: 7px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu_right li a:hover {
+    background: #c79935;
+    color: #fff !important;
+}
+
+.submenu li:hover .submenu_right {
+    display: block;
+}
